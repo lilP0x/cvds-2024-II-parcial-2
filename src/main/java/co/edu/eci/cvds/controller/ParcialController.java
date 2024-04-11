@@ -19,21 +19,34 @@ import java.util.UUID;
 @RequestMapping(value = "/juan_fernandez")
 public class ParcialController {
 
-    private static final String LOGIN_PAGE = "login/login";
+    private final ParcialService parcialService;
 
     @Autowired
-    public ParcialController() {
-
-    }
-/*
-    @GetMapping("")
-    public String login() {
-        return LOGIN_PAGE;
+    public ParcialController(ParcialService parcialService) {
+        this.parcialService = parcialService;
     }
 
-    @GetMapping("register")
-    public String register() {
-        return "login/register";
+    @GetMapping("/example")
+    public String example(Model model) {
+        model.addAttribute("premio", parcialService.getPremio());
+        return "example";
     }
-*/
+
+    @GetMapping("/example/api")
+    public String exampleApi() {
+        return "example-api";
+    }
+
+    @GetMapping("/example/api/configurations")
+    @ResponseBody
+    public List<Parcial> exampleApiParcial() {
+        return ParcialService.getAllParcial();
+    }
+
+    @PostMapping("/example/api/configurations")
+    @ResponseBody
+    public List<Parcial> exampleApiConfigurations(@RequestBody Parcial parcial) {
+        parcialService.addParcial(parcial);
+        return parcialService.getAllParcial);
+    }
 }
