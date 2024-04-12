@@ -20,8 +20,8 @@ public class ConfigurationService {
         return configurationRepository.save(configuration);
     }
 
-    public Configuration getConfiguration(String propiedad) {
-        return configurationRepository.findByPropiedad(propiedad).get(1);
+    public Configuration getConfiguration(String pregunta) {
+        return configurationRepository.findByPregunta(pregunta).get(1);
     }
 
     public List<Configuration> getAllConfigurations() {
@@ -29,18 +29,18 @@ public class ConfigurationService {
     }
 
     public Configuration updateConfiguration(Configuration configuration) {
-        if (configurationRepository.findByPropiedad(configuration.getPropiedad()).size() == 0) {
+        if (configurationRepository.findByPregunta(configuration.getPregunta()).size() == 0) {
             return configurationRepository.save(configuration);
         }
 
         return null;
     }
 
-    public void deleteConfiguration(String propiedad) {
-        configurationRepository.deleteById(propiedad);
+    public void deleteConfiguration(String pregunta) {
+        configurationRepository.deleteById(pregunta);
     }
 
     public String getPremio() {
-        return configurationRepository.findByPropiedad("premio").get(0).getValor();
+        return configurationRepository.findByPregunta("premio").get(0).getRespuesta();
     }
 }

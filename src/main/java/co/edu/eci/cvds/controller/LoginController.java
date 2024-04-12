@@ -23,7 +23,7 @@ public class LoginController {
 
     @Autowired
     public LoginController() {
-
+        
     }
 
     @GetMapping("")

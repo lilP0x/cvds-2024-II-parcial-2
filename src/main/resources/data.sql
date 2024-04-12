@@ -1,1 +1,1 @@
-INSERT INTO CONFIGURATION (PROPIEDAD, VALOR) VALUES ('1', 'Valor 1');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('1', 'Valor 1', 'Explicacion');

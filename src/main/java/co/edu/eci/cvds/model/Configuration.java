@@ -6,44 +6,55 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "CONFIGURATION")
+@Table(name = "DANIEL_ACERO")
 public class Configuration {
     @Id
-    @Column(name = "PROPIEDAD")
-    private String propiedad;
-    @Column(name = "VALOR")
-    private String valor;
+    @Column(name = "pregunta")
+    private String pregunta;
+    @Column(name = "respuesta")
+    private String respuesta;
+    @Column(name = "justificacion")
+    private String justificacion;
 
     public Configuration() {
     }
 
-    public Configuration(String propiedad, String valor) {
-        this.propiedad = propiedad;
-        this.valor = valor;
+    public Configuration(String propiedad, String respuesta, String justificacion) {
+        this.pregunta = pregunta;
+        this.respuesta = respuesta;
+        this.justificacion = justificacion;
     }
 
-    public String getPropiedad() {
-        return propiedad;
+    public String getPregunta() {
+        return pregunta;
     }
 
-    public void setPropiedad(String propiedad) {
-        this.propiedad = propiedad;
+    public void setPregunta(String pregunta) {
+        this.pregunta = pregunta;
     }
 
-    public String getValor() {
-        return valor;
+    public String getRespuesta() {
+        return respuesta;
     }
 
-    public void setValor(String valor) {
-        this.valor = valor;
+    public void setRespuesta(String respuesta) {
+        this.respuesta = respuesta;
+    }
+
+    public String getJustificacion() {
+        return justificacion;
+    }
+
+    public void setJustificacion(String justificacion) {
+        this.justificacion = justificacion;
     }
 
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((propiedad == null) ? 0 : propiedad.hashCode());
-        result = prime * result + ((valor == null) ? 0 : valor.hashCode());
+        result = prime * result + ((pregunta == null) ? 0 : pregunta.hashCode());
+        result = prime * result + ((respuesta == null) ? 0 : respuesta.hashCode());
         return result;
     }
 
@@ -56,21 +67,21 @@ public class Configuration {
         if (getClass() != obj.getClass())
             return false;
         Configuration other = (Configuration) obj;
-        if (propiedad == null) {
-            if (other.propiedad != null)
+        if (pregunta == null) {
+            if (other.pregunta != null)
                 return false;
-        } else if (!propiedad.equals(other.propiedad))
+        } else if (!pregunta.equals(other.pregunta))
             return false;
-        if (valor == null) {
-            if (other.valor != null)
+        if (respuesta == null) {
+            if (other.respuesta != null)
                 return false;
-        } else if (!valor.equals(other.valor))
+        } else if (!respuesta.equals(other.respuesta))
             return false;
         return true;
     }
 
     @Override
     public String toString() {
-        return "Configuration [propiedad = " + propiedad + ", valor = " + valor + "]";
+        return "Configuration [pregunta = " + pregunta + ", respuesta = " + respuesta + ", justificacion = " + justificacion + "]";
     }
 }
