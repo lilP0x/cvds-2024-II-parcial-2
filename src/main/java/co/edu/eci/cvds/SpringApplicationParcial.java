@@ -2,6 +2,8 @@ package co.edu.eci.cvds;
 
 import co.edu.eci.cvds.model.Configuration;
 import co.edu.eci.cvds.service.ConfigurationService;
+import co.edu.eci.cvds.model.Parcial;
+import co.edu.eci.cvds.service.ParcialService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -15,13 +17,13 @@ import java.util.Arrays;
 @SpringBootApplication
 @Slf4j
 public class SpringApplicationParcial {
-	private final ConfigurationService configurationService;
+	private final ParcialService parcialService;
 
 	@Autowired
 	public SpringApplicationParcial(
-			ConfigurationService configurationService
+			ParcialService parcialService
 	) {
-		this.configurationService = configurationService;
+		this.parcialService = parcialService;
 	}
 
 	public static void main(String[] args) {

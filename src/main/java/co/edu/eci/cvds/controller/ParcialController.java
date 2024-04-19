@@ -10,13 +10,21 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import co.edu.eci.cvds.model.Parcial;
+import co.edu.eci.cvds.service.ParcialService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
 import java.time.Instant;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
 @Controller
-@RequestMapping(value = "/juan_fernandez")
+@RequestMapping(value = "/Parcial")
 public class ParcialController {
 
     private final ParcialService parcialService;
@@ -26,11 +34,6 @@ public class ParcialController {
         this.parcialService = parcialService;
     }
 
-    @GetMapping("/example")
-    public String example(Model model) {
-        model.addAttribute("premio", parcialService.getPremio());
-        return "example";
-    }
 
     @GetMapping("/example/api")
     public String exampleApi() {
@@ -40,13 +43,13 @@ public class ParcialController {
     @GetMapping("/example/api/configurations")
     @ResponseBody
     public List<Parcial> exampleApiParcial() {
-        return ParcialService.getAllParcial();
+        return parcialService.getAllParcial();
     }
 
     @PostMapping("/example/api/configurations")
     @ResponseBody
     public List<Parcial> exampleApiConfigurations(@RequestBody Parcial parcial) {
         parcialService.addParcial(parcial);
-        return parcialService.getAllParcial);
+        return parcialService.getAllParcial();
     }
 }

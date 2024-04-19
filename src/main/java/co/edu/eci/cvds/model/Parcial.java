@@ -6,14 +6,14 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "juan_fernandez")
+@Table(name = "JUAN_FERNANDEZ")
 public class Parcial {
     @Id
-    @Column(name = "#pregunta")
+    @Column(name = "PREGUNTA")
     private String pregunta;
-    @Column(name = "letraResp")
+    @Column(name = "lETRARESP")
     private String letraResp;
-    @Column(name = "argumento")
+    @Column(name = "ARGUMENTO")
     private String argumento;
 
     public Parcial() {

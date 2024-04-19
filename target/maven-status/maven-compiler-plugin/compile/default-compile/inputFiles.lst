@@ -1,10 +1,12 @@
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\config\BasicAuthInterceptor.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\controller\ParcialController.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\config\WebConfig.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\controller\LoginController.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\SpringApplicationParcial.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\model\Parcial.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\repository\ConfigurationRepository.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\service\ConfigurationService.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\model\Configuration.java
-C:\Users\juan.fernandez-g\Downloads\New folder\src\main\java\co\edu\eci\cvds\controller\ConfigurationController.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\config\WebConfig.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\model\Parcial.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\service\ParcialService.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\SpringApplicationParcial.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\model\Configuration.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\controller\ConfigurationController.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\controller\LoginController.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\service\ConfigurationService.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\config\BasicAuthInterceptor.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\repository\ParcialRepository.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\controller\ParcialController.java
+C:\Users\juanp\OneDrive\Documentos\Universidad\Ciclos\parcial\src\main\java\co\edu\eci\cvds\repository\ConfigurationRepository.java
