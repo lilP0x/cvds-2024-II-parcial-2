@@ -1,15 +1,15 @@
-INSERT INTO DANIEL_ACERO VALUES ('1', 'c', '--')
-INSERT INTO DANIEL_ACERO VALUES ('2', 'a', '--')
-INSERT INTO DANIEL_ACERO VALUES ('3', 'd', '--')
-INSERT INTO DANIEL_ACERO VALUES ('4', 'd', '--')
-INSERT INTO DANIEL_ACERO VALUES ('5', 'c', '--')
-INSERT INTO DANIEL_ACERO VALUES ('6', 'd', '--')
-INSERT INTO DANIEL_ACERO VALUES ('7', 'a', '--')
-INSERT INTO DANIEL_ACERO VALUES ('8', 'd', '--')
-INSERT INTO DANIEL_ACERO VALUES ('9', 'b', '--')
-INSERT INTO DANIEL_ACERO VALUES ('10', 'a', '--')
-INSERT INTO DANIEL_ACERO VALUES ('11', 'd', '--')
-INSERT INTO DANIEL_ACERO VALUES ('12', 'd', '--')
-INSERT INTO DANIEL_ACERO VALUES ('13', 'b', '--')
-INSERT INTO DANIEL_ACERO VALUES ('14', 'a', '--')
-INSERT INTO DANIEL_ACERO VALUES ('15', 'c', '--')
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('1', 'c', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('2', 'a', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('3', 'd', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('4', 'd', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('5', 'c', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('6', 'd', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('7', 'a', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('8', 'd', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('9', 'b', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('10', 'a', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('11', 'd', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('12', 'd', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('13', 'b', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('14', 'a', '--');
+INSERT INTO DANIEL_ACERO (pregunta, respuesta, justificacion) VALUES ('15', 'c', '--');
