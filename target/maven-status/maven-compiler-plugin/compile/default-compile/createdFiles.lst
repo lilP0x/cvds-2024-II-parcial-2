@@ -4,5 +4,6 @@ co\edu\eci\cvds\controller\LoginController.class
 co\edu\eci\cvds\SpringApplicationParcial.class
 co\edu\eci\cvds\config\WebConfig.class
 co\edu\eci\cvds\repository\ConfigurationRepository.class
+co\edu\eci\cvds\repository\ConfigTableRepository.class
 co\edu\eci\cvds\controller\ConfigurationController.class
 co\edu\eci\cvds\service\ConfigurationService.class
