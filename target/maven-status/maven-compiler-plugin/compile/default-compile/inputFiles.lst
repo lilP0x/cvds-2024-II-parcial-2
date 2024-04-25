@@ -1,0 +1,14 @@
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/controller/DanielAceroController.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/SpringApplicationParcial.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/config/WebConfig.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/config/BasicAuthInterceptor.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/controller/ConfigurationController.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/repository/ConfigurationTableRepository.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/repository/DanielAceroRepository.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/model/DanielAcero.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/service/ConfigurationService.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/model/Configuration.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/repository/ConfigurationRepository.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/controller/NewTableController.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/controller/LoginController.java
+/home/daniel/Downloads/cvds-2024-II-parcial-2-cvds-daniel-acero3/src/main/java/co/edu/eci/cvds/service/DanielAceroService.java
