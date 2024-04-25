@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
-@RequestMapping(value = "/laura_rodriguez")
+@RequestMapping(value = "/DANIEL_ACERO")
 public class DanielAceroController {
     private final DanielAceroService DanielAceroService;
     @Autowired
-    public DanielAceroController(LauraRodriguezService lauraRodriguezService) {
-        this.lauraRodriguezService = lauraRodriguezService;
+    public DanielAceroController(DanielAceroService DanielAceroService) {
+        this.DanielAceroService = DanielAceroService;
     }
     @GetMapping("")
     public String apiParcial() {

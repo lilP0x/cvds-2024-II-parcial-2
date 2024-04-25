@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 @Table(name = "DANIEL_ACERO")
 public class DanielAcero {
     @Id
-    @Column(name = "NumeroPregunta")
+    @Column(name = "Pregunta")
     private String numero;
     @Column(name = "Respuesta")
     private String respuesta;
@@ -26,22 +26,22 @@ public class DanielAcero {
         this.argumento = argumento;
     }
 
-    public String getnumero() {
+    public String getPregunta() {
         return numero;
     }
 
-    public void setnumero(String numero) {
+    public void setPregunta(String numero) {
         this.numero = numero;
     }
 
-    public String getrespuesta() {
+    public String getRespuesta() {
         return respuesta;
     }
 
-    public void setrespuesta(String respuesta) {
+    public void setRespuesta(String respuesta) {
         this.respuesta = respuesta;
     }
-    public String getrArgumento() {
+    public String getArgumento() {
         return argumento;
     }
 
